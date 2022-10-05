@@ -5,7 +5,7 @@ class Cli(Plays):
     def construct(self):
         print("----------------------")
         print("1. Stack ")
-        print("2. Binary Tree")
+        print("2. Binary Search Tree")
         print("----------------------")
         choice = int(input("Enter : "))
         if choice == 1:
