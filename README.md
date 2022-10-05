@@ -29,4 +29,4 @@ The output file generated using default interface is stored in `...\manim-ds\med
 
 
 ## Examples
-![Overflow Example](\resource-readme\ofl.gif)
+![Overflow Example](/resource-readme/ofl.gif)
