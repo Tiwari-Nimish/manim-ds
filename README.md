@@ -29,4 +29,9 @@ The output file generated using default interface is stored in `...\manim-ds\med
 
 
 ## Examples
+
+- Stack Example With Overflow and Underflow Handling. Can take in Numbers, Letters as well as Special Charcters.
 ![Overflow Example](/resource-readme/ofl.gif)
+
+- Binary Search Tree Example. Takes only Intgers as Input.
+![BST](/resource-readme/tree.gif)
