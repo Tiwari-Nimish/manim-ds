@@ -13,6 +13,7 @@ Manim-DS provides a Command Line Interface. After all the operations are execute
 -  [Requirements](#requirements)
 -  [Usage](#usage)
 -  [Examples](#examples)
+-  [TO-DO](#todo)
 
 ## Requirements
 - Python
@@ -35,3 +36,7 @@ The output file generated using default interface is stored in `...\manim-ds\med
 
 - Binary Search Tree Example. Takes only Intgers as Input.
 ![BST](/resource-readme/tree.gif)
+
+## TODO
+This is  a work in progress with more features to come.
+This currently only has Stack and Binary Search tree, but I wish to add other Data Structres with more features as well.
