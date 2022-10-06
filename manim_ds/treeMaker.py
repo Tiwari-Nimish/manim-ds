@@ -87,16 +87,3 @@ class BST():
             self.preorder(node.left)
             self.preorder(node.right)
          return self.treedata,self.treelvl,self.treeposL,self.treeposR,self.rT
-
-
-
-
-
-
-
-
-
-
-
-
-
