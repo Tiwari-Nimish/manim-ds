@@ -58,7 +58,7 @@ class TNode(VGroup):
         
         self.nodeGrp.remove(*[mobs for mobs in self.nodeGrp])
         self.nodeGrp.add(*self.nds,*lbls,*self.lines)
-        self.nodeGrp.move_to(ORIGIN).shift(UP)
+        self.nodeGrp.shift(UP*1.5)
         self.nodeGrp.scale(0.75)
         self.add(self.nodeGrp)
 

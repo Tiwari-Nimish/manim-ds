@@ -34,7 +34,7 @@ class BST():
                    if current.left:
                       current = current.left
                       lvl += 1
-                      updater -= 0.65
+                      updater -= 0.6
                       rT = current.data
 
                    else:
@@ -44,19 +44,19 @@ class BST():
                       rT = current.data
                       if lvl == 1:
                         posR = 0
-                        posL = 3.5
+                        posL = 3.75
                       else:
                         posR += 0
                         posL += updater
                       current.left = Node(val,lvl,posL,posR,rT)
-                      updater -= 0.65
+                      updater -= 0.6
 
                       break    
                 elif val > current.data:
                     if current.right:
                        current = current.right
                        lvl += 1
-                       updater -= 0.65
+                       updater -= 0.6
                        rT = current.data
 
                     else:
@@ -65,13 +65,13 @@ class BST():
                        posL = current.leftTvl
                        rT = current.data
                        if lvl == 1:
-                        posR = 3.5
+                        posR = 3.75
                         posL = 0
                        else:
                         posR += updater
                         posL += 0
                        current.right = Node(val,lvl,posL,posR,rT)
-                       updater -= 0.65
+                       updater -= 0.6
 
                        break     
                 else:
