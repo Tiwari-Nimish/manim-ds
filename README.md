@@ -18,7 +18,6 @@ Manim-DS provides a Command Line Interface. After all the operations are execute
 ## Requirements
 - Python
 - [Manim](https://www.manim.community/)
-- [Miktex](https://miktex.org/download) or any other Latex Distribution
 
 ## Usage
 

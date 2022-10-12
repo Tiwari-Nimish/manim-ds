@@ -31,7 +31,7 @@ class TNode(VGroup):
         nGrp = VGroup()
         
         for i in range(len(data)):
-            lbls.append(Tex(data[i]))
+            lbls.append(Text(str(data[i])).scale(0.7))
             self.nds.append(Circle().scale(0.4))
             self.nds[i].shift(UP+DOWN*lvl[i])
             self.nds[i].shift(LEFT*posL[i]+RIGHT*posR[i])

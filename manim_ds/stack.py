@@ -25,7 +25,7 @@ class Stack(VGroup):
         self.posU = posU
         self.posD = posD
         self.ele = []
-        self.label = Tex("TOP")
+        self.label = Text("TOP").scale(0.75)
         self.point = Arrow(start=LEFT , end=RIGHT)
         self.node = []
         for i in range(self.size):
@@ -53,7 +53,7 @@ class Stack(VGroup):
             return 0
 
     def addEle(self ,val, **kwargs):
-            lbl = Tex(val)
+            lbl = Text(val).scale(0.75)
             lbl.move_to(self.node[self.index].get_center())
             self.ele.append(lbl)
             self.index -= 1
@@ -70,13 +70,13 @@ class Stack(VGroup):
         self.top()
 
     def overflow(self):
-        ofl = Tex("OVERFLOW !")
+        ofl = Text("OVERFLOW !").scale(0.75)
         ofl.set_color(RED)
         ofl.next_to(self.node[0],RIGHT)
         self.add(ofl)
 
     def underflow(self):
-        ufl = Tex("UNDERFLOW!")
+        ufl = Text("UNDERFLOW!").scale(0.75)
         ufl.set_color(BLUE)
         ufl.next_to(self.node[0],LEFT)
         self.add(ufl)        
